@@ -5,7 +5,7 @@ class Node:
     """
     Provide necessary documentation
     """
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Provide necessary documentation
         """
@@ -42,7 +42,7 @@ class LinkedList:
         -> self.head - contains first node of LinkedList, None if list empty
     """
 
-    def _init_(self):
+    def __init__(self):
         """
         Initialize the head
         """
