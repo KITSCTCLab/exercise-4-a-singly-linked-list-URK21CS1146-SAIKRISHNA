@@ -5,7 +5,7 @@ class Node:
     """
     Provide necessary documentation
     """
-    def __init__(self, data=None, next=None):
+    def _init_(self, data=None, next=None):
         """
         Provide necessary documentation
         """
@@ -24,7 +24,7 @@ class Node:
         -> next - link to next node
     """
 
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Initialises the Node with given attributes
         """
